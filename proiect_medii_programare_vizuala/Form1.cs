@@ -47,6 +47,9 @@ namespace proiect_medii_programare_vizuala
             height = Convert.ToInt32(textBoxHeight.Text.ToString());
             BMI = ((double)weight / height / height) * 10000;
             labelResult.Text = BMI.ToString("n");
+
+            textBoxWeight.Text = string.Empty;
+            textBoxHeight.Text = string.Empty;
         }
     }
 }
