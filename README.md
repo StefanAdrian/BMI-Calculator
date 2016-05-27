@@ -1,4 +1,4 @@
-# proiect_medii_programare_vizuala
+# BMI Calculator
 
 Calculate Your Body Mass Index
 
